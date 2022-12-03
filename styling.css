@@ -124,7 +124,6 @@ button {
     background-image: linear-gradient(180deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     border-radius: 25px;
     height: 100%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .svg-arrow:active{
@@ -217,6 +216,7 @@ button {
     }
     .svg-arrow {
         padding: 1em 2.5em;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
 
     .svg-arrow:hover {

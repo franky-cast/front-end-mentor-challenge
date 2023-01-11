@@ -52,7 +52,7 @@ body {
     word-spacing: 0.125em;
     line-height: 1.5;
     font-size: .85rem;
-    padding-bottom: 2em;
+    padding-bottom: 1.75em;
 }
 
 .desktop-hero {
@@ -136,12 +136,6 @@ button {
 }
 
 
-/* @media (max-width: 446px) {
-    body {
-        height: 100vh;
-    }
-} */
-
 @media (min-width: 500px) {
     form {
         margin: 0 auto;
@@ -149,6 +143,10 @@ button {
 }
 
 @media (min-width: 700px) {
+    .background-image {
+        min-height: 600px;
+    }
+
     #alert {
         padding: 1em;
     }
@@ -187,13 +185,15 @@ button {
         display: inline;
     }
 
-    .desktop-main {
-        padding: 3em 0;
+    .header__logo {
+        padding-top: 2em;
+        padding-bottom: 30%;
     }
 
     .title {
         font-size: 3.5rem;
         width: 100%;
+        margin-top: 0;
     }
 
     .psa {
